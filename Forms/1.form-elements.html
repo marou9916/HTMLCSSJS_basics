@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Elements</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Personal info</legend>
+        <pre>
+            <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name">
+            
+            <label for="second_name">Second Name</label>
+                <input type="text" id="second_name" name="second_name">
+            
+            <label for="password">password</label>
+                <input type="password" id="password" name="password">
+            
+            <label for="education">Education</label>
+                <select name="" id="education" size="2">
+                    <option value="master">Master</option>
+                    <option value="ms">MS</option>
+                    <option value="phd">PHD</option>
+                    <option value="phd">Maths</option>
+                </select>
+
+            <label for="message">Message</label>
+                <textarea name="message" id="message" cols="35" rows="4"></textarea>
+              
+        </pre>
+            
+    </fieldset>
+    <br>
+    <input list="browsers">
+    <datalist id="browsers">
+        <option value="Safari">Safari</option>
+        <option value="Chrome">Chrome</option>
+        <option value="Cobra">Cobra</option>
+    </datalist> 
+    <button type="button">Click Me</button>  
+</body>
+</html>
