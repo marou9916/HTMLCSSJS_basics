@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designing table</title>
+    <style>
+        h4 {
+            background-color: red;
+            text-align: center;
+        }
+        table {
+            width: 600px;
+            margin: auto;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+        table th, table td {
+            border: 1px solid blue;
+            padding: 10px;
+            text-align: center;
+        }
+        table th {
+            background-color: aqua;
+            color: whitesmoke;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+        }
+        table tbody tr:nth-child(even) td {
+            background-color: #edf2f0;
+        }
+    </style>
+</head>
+<body>
+    <h4>Styling table using CSS</h4>
+    <table>
+        <thead>
+            <tr>
+                <th>Sr</th>
+                <th>Course Name</th>
+                <th>Price</th>
+                <th>Qty</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Web Programming</td>
+                <td>60,000</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>CSS Fundamentals</td>
+                <td>50,000</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Dart Programming</td>
+                <td>70,000</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>Flutter</td>
+                <td>80,000</td>
+                <td>1</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Sr</th>
+                <th>Course Name</th>
+                <th>Price</th>
+                <th>Qty</th>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
