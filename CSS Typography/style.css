@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Nerko+One&display=swap');
+body {
+    font-family: 'Matemasie', sans-serif;
+}
+h2 {
+    font-weight: normal;
+    font-style: oblique;
+    text-shadow: 2px 2px 2px blue;
+}
+h3 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    word-spacing: 4px;
+    text-decoration: underline;
+}
+p {
+    font-size: medium;
+    font-weight: normal;
+    font-style: italic;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    text-align: justify;
+    text-indent: 30px;
+}
