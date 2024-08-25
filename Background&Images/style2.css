@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Matemasie&family=Nerko+One&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Matemasie', sans-serif;
+    background-color: #04274d;
+    color: #fff;
+}
+nav {
+    /* font-weight: normal;
+    font-style: oblique;
+    text-shadow: 2px 2px 2px blue; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.3);
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: #04274d;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li a {
+    display: flex;
+    padding: 0px 15px;
+    margin: 3px;
+    height: 40px;
+    line-height: 40px;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 500;
+    font-size: 0.8em;
+}
+nav ul li a:hover {
+    box-shadow: 5px 10px 30px rgba(208, 49, 11, 0.5);
+    border-bottom: 2px solid #d03173;
+}
+p {
+    font-size: 12px;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+    text-align: left;
+    text-indent: 50px;
+}
+#content {
+    padding-top: 100px;
+    height: 800px;
+    background-image: url(baobab.jpg);
+    /* background-repeat: no-repeat; */
+    background-position: center center;
+    background-size: cover;
+}
+.active {
+    box-shadow: 5px 10px 20px rgba(208, 49, 11, 0.5);
+    border-bottom: 2px solid #d03173;
+}
+
